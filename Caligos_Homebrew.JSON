@@ -1,0 +1,273 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Caligos",
+				"abbreviation": "Caligos",
+				"color": "873600",
+				"full": "The Caligos Archipelago",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"item": [
+		{
+			"name": "Wheellock Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 15000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"This older version of the {@item pistol|dmg| flintlock pistol} uses a friction wheel to ignite powder rather than flint. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
+			]
+		},
+		{
+			"name": "Wheellock Musket",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 30000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H"
+			],
+			"entries": [
+				"This older version of the {@item musket|dmg| flintlock musket} uses a friction wheel to ignite powder rather than flint. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
+			]
+		},
+		{
+			"name": "Double Barreled Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 65000,
+			"weight": 5,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"reload": 2,
+			"property": [
+				"RLD",
+				"A"
+			],
+			"entries": [
+				"This advanced {@item pistol|dmg} design features two barrels and two triggering mechanisms, allowing it to be fired twice before reloading."
+			]
+		},
+		{
+			"name": "Tri-Barrel Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 80000,
+			"weight": 7,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"reload": 3,
+			"property": [
+				"RLD",
+				"A"
+			],
+			"entries": [
+				"This advanced {@item pistol|dmg} design features three barrels and three triggering mechanisms, allowing it to be fired thrice before reloading."
+			]
+		},
+		{
+			"name": "Pepperbox Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 100000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"reload": 4,
+			"property": [
+				"RLD",
+				"A"
+			],
+			"entries": [
+				"This advanced {@item pistol|dmg} design features four revolving barrels, allowing it to be fired four times before reloading."
+			]
+		},
+		{
+			"name": "Duckfoot Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 80000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "15ft. cone",
+			"reload": 1,
+			"property": [
+				"RLD",
+				"A",
+				"S"
+			],
+			"entries": [
+				"This advanced {@item pistol|dmg} design features four barrels placed at different angles alongside each other, resembling a duck's foot. When the trigger is pulled, all barrels fire simultaneously casting a wide arc of bullets.",
+				"Special. When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 15ft cone originating from the weapon must make a Dexterity saving throw or take the damage. The DC for this saving throw is 8 + your proficiency bonus (if you are proficent with this weapon) + your Dexterity modifier. This action uses four pieces of ammunition."
+			]
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 100000,
+			"weight": 15,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30ft. cone",
+			"reload": 1,
+			"property": [
+				"RLD",
+				"A",
+				"S",
+				"2H",
+				"H"
+			],
+			"entries": [
+				"This advanced {@item musket |dmg} design features a wide flared barrel in which multiple bullets can fit. When the trigger is pulled, all bullets are fired simultaneously.",
+				"Special. When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a Dexterity saving throw or take the damage. The DC for this saving throw is 8 + your proficiency bonus (if you are proficent with this weapon) + your Dexterity modifier. This action uses eight pieces of ammunition."
+			]
+		},
+		{
+			"name": "Legionsbane +2",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weapon": true,
+			"firearm": true,
+			"rarity": "legendary",
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"bonusWeapon": "+2",
+			"dmgType": "P",
+			"range": "50/200",
+			"reload": 8,
+			"property": [
+				"RLD",
+				"A"
+			],
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"This weapon superheats bullets it fires, dealing an extra {@dice 2d6} fire damage on a hit.",
+				"When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon."
+			]
+		},
+		{
+			"name": "Inquisitor Mask",
+			"wondrous": "true",
+			"rarity": "uncommon",
+			"source": "Caligos",
+			"entries": [
+				"While wearing this mask, you are immune to the {@condition blinded|phb} condition."
+			]
+		}
+	],
+	"variant": [
+		{
+			"name": "Rifled Firearm",
+			"type": "GV",
+			"source": "Caligos",
+			"requires": [
+				{
+					"age": "renaissance",
+				  "firearm": true
+				}
+			],
+			"inherits": {
+				"rarity": "none",
+				"source": "Caligos",
+				"namePrefix": "Rifled ",
+				"entries": [
+					"Spiral grooves on the inside of the barrel force the bullet to spin when fired, helping it travel further. An engineer or blacksmith can rifle the inside of most barrels for 150gp.",
+					"The normal and long range of a rifled firearm are both doubled."
+				]
+			}
+		},
+		{
+			"name": "Scoped Firearm",
+			"type": "GV",
+			"source": "Caligos",
+			"requires": [
+				{
+					"age": "renaissance",
+				  "firearm": true
+				}
+			],
+			"inherits": {
+				"rarity": "none",
+				"source": "Caligos",
+				"namePrefix": "Scoped ",
+				"entries": [
+					"A set of several carefully shaped lenses are fixed to the sights to make aiming at long range easier. An engineer can produce and fix a scope to most firearms for 250gp.",
+					"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with this weapon."
+				]
+			}
+		}
+	]
+}
