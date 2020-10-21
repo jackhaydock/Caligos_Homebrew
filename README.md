@@ -8,7 +8,7 @@ https://5e.tools/managebrew.html
 
 3. Click "Load from URL"
 4. Copy/Paste this url
-https://raw.githubusercontent.com/jackhaydock/Caligos_Homebrew/master/TSoC.json
+https://github.com/jackhaydock/Caligos_Homebrew/blob/master/Caligos_Homebrew.JSON
 5. Done
 
 You should then be able to see "The Caligos Archipelago" in source filters and see things with the brown "Caligos" label.
